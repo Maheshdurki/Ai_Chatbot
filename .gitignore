@@ -1,0 +1,38 @@
+# Environment variables
+.env
+*.env
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases & Uploads
+*.db
+*.sqlite3
+backend/uploads/
+backend/*.db
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
